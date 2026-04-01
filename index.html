@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SmartChef AI</title>
+  <link rel="stylesheet" href="sstyle.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>🍳 SmartChef AI</h1>
+    <p class="subtitle">Enter ingredients and get AI-powered recipes</p>
+
+    <textarea id="ingredients" placeholder="e.g. tomato, cheese, pasta"></textarea>
+    
+    <button onclick="getRecipes()">Generate Recipes</button>
+
+    <div id="loader" class="hidden">Loading...</div>
+
+    <div id="recipes"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
